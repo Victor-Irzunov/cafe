@@ -106,15 +106,11 @@ html {
 }
 
 .bg-img {
-    background-position: center;
+    background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
 } 
-.bg-img2 {
-    background-position: center;
-    /* background-size: cover; */
-    background-repeat: no-repeat;
-} 
+
 
 .bg-img-fixed {
     background-attachment: fixed;
