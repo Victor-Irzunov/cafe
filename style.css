@@ -106,14 +106,14 @@ html {
 }
 
 .bg-img {
-    background-position: 70%, 50%;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 } 
 
 
 .bg-img-fixed {
-    background-attachment: local;
+    background-attachment: fixed;
 }
 
 

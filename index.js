@@ -1,13 +1,19 @@
 // back tot top
 document.addEventListener("DOMContentLoaded", ready);
 
+const bgImg = document.querySelector('.bg-img')
+const bgImgFix = document.querySelector('.bg-img-fixed')
+const foodMenu = document.querySelector('#food-menu-section')
+
 function ready() {
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i
-    .test(navigator.userAgent)) {
+    if (/iPhone|iPad/i
+        .test(navigator.userAgent)) {
+            bgImg.style.backgroundPosition = '70% 50%'
+            bgImgFix.style.backgroundAttachment = 'local'
 
-    alert("Вы используете мобильное устройство (телефон или планшет).")
-
-} else alert("Вы используете ПК.")
+    } else {
+        foodMenu.style.backgroundImage = 'url("assets/katherine-chase-4MMK78S7eyk-unsplash.jpg")'
+    }
 }
 
 let backToTopBtn = document.querySelector('.back-to-top')
