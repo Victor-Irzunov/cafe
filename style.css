@@ -106,7 +106,7 @@ html {
 }
 
 .bg-img {
-    background-position: right;
+    background-position: 70%, 50%;
     background-size: cover;
     background-repeat: no-repeat;
 } 
