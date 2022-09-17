@@ -109,11 +109,17 @@ html {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
+} 
+.bg-img2 {
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+} 
 
 .bg-img-fixed {
     background-attachment: fixed;
 }
+
 
 .container {
     width: 100%;
